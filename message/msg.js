@@ -232,17 +232,17 @@ module.exports = async(conn, msg, m, setting, store) => {
 			+ 'END:VCARD'
 			return conn.sendMessage(from, { contacts: { displayName: name, contacts: [{ vcard }] }, mentions : mn ? mn : []},{ quoted: quoted })
 		}
-		//{ callButton: { displayText: `Call Owner!`, phoneNumber: `+6281319944917` } },
+		//{ callButton: { displayText: `Call Owner!`, phoneNumber: `+6283131214121` } },
 		const buttonsDefault = [
-			{ urlButton: { displayText: `GRUP JOJO-BOT`, url : `https://chat.whatsapp.com/HECLovHbCI6LVVH4Q8FN2C` } },
-			{ urlButton: { displayText: `Youtube Channel`, url : `https://youtube.com/channel/UCZzt-Qw0zTYc8UP-LL2G5fA` } },
+			{ urlButton: { displayText: `GRUPNYA KEPIN`, url : `https://chat.whatsapp.com/JWVl9J1sIxMG9PwyIMyQN6` } },
+			{ urlButton: { displayText: `INSTAGRAMNYA KEPIN`, url : `https://instagram.com/kevinafsar_` } },
 			{ quickReplyButton: { displayText: `💰 Donasi`, id: `${prefix}donate` } },
 			{ quickReplyButton: { displayText: `Pemilik Bot`, id: `${prefix}owner` } },
 			{ quickReplyButton: { displayText: `Info Bot`, id: `${prefix}infobot` } },
 		]
 		const button5 = [
-			{ callButton: { displayText: `Number Owner`, phoneNumber: `0813-1994-4917` } },
-			{ urlButton: { displayText: `𝙂𝙧𝙪𝙥 𝙅𝙤𝙟𝙤`, url : `https://chat.whatsapp.com/HECLovHbCI6LVVH4Q8FN2C` } },
+			{ callButton: { displayText: `Number Owner`, phoneNumber: `083131214121` } },
+			{ urlButton: { displayText: `GC NYA KEPIN`, url : `https://chat.whatsapp.com/JWVl9J1sIxMG9PwyIMyQN6` } },
 			{ quickReplyButton: { displayText: `Back To Menu 🔙`, id: `${prefix}menu` } },
 		]
         
@@ -348,8 +348,8 @@ case prefix+'donasiah':
 case prefix+'donasi':
   case prefix+'donate':
   var donasibut = [
-			{ callButton: { displayText: `Number Owner`, phoneNumber: `0813-1994-4917` } },
-			{ urlButton: { displayText: `𝙂𝙧𝙪𝙥 𝙅𝙤𝙟𝙤`, url : `https://chat.whatsapp.com/HECLovHbCI6LVVH4Q8FN2C` } },
+			{ callButton: { displayText: `Number Owner`, phoneNumber: `083131214121` } },
+			{ urlButton: { displayText: `GC NYA KEPIN`, url : `https://chat.whatsapp.com/JWVl9J1sIxMG9PwyIMyQN6` } },
 			{ quickReplyButton: { displayText: `Aku Ingin Donasi`, id: `${prefix}donasiah` } },
 		]
 var teks = `  │
@@ -372,7 +372,7 @@ var teks = `  │
 			    break
 case prefix+'sewa':
   case prefix+'daftarprem':
-  var teks = `*[ LIST HARGA JOJO PREM ]*
+  var teks = `*[ LIST HARGA KEVIN PREM ]*
 
 _Yakin kamu mau daftar ke premium?_
 
@@ -403,12 +403,12 @@ case prefix+'groupjojo':
 case prefix+'infobot':
   case prefix+'inforobot':
     case prefix+'info':
-      var caption = `*[ INFO ROBOT JOJO ]*
+      var caption = `*[ INFO ROBOT KEVIN ]*
 
-*Nama Bot :* Jojo
-*Name Owner :* Arasya
-*Nomor Bot :* wa.me/6288213292687
-*Nomor Owner :* wa.me/6281319944917
+*Nama Bot :* VINZTBOT
+*Name Owner :* KEVIN AFSAR
+*Nomor Bot :* wa.me/6283131214121
+*Nomor Owner :* wa.me/6283131214121
 *Engine :* NodeJs
 *Status :* Aktif
 *Aktif Selama :* ${runtime(process.uptime())}
