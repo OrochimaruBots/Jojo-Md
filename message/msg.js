@@ -37,11 +37,11 @@ const jojoapi = "Syaa"
 const ikiapi = "FuckBitch"
 
 // Setting Donasi
-const gopay = "0882-1329-2687"
-const ovo = "0813-1994-4917"
-const dana = "0813-1994-4917"
-const pulsa = "0813-1994-4917"
-const pulsa2 = "0882-1329-2687"
+const gopay = "-"
+const ovo = "-"
+const dana = "-"
+const pulsa = "-"
+const pulsa2 = "0831-3121-4121"
 const ig = "sofunsyabi.jpg"
 
 // Exif
@@ -419,7 +419,8 @@ Thanks To
 - Arasya
 - Amel
 - Hardianto
-- Febri`
+- Febri
+- Kepin`
 
 conn.sendMessage(from, {caption: caption, image: {url: `https://telegra.ph/file/7b927d601b6c7496d01ef.jpg`}}, {quoted: msg})
 break
@@ -428,15 +429,15 @@ break
 			    reply(`◪ DONASI
   │
   ├─ ❏ GOPAY
-  ├─ ❏ 088213292687
+  ├─ ❏ -
   ├─ ❏ OVO
-  ├─ ❏ 088213292687
+  ├─ ❏ -
   ├─ ❏ PULSA
-  ├─ ❏ 081319944917
+  ├─ ❏ -
   ├─ ❏ PULSA2
-  ├─ ❏ 088213292687
+  ├─ ❏ 6283131214121
   ├─ ❏ INSTAGRAM
-  └─ ❏ https://www.instagram.com/sofunsyabi.id
+  └─ ❏ https://www.instagram.com/Kevinafsar_
   
   Donasi Untuk Upgrade Ke Fitur Premium
   Note : Donasi Seikhlasnya`)
@@ -1108,7 +1109,7 @@ case prefix+'n':
   reply("Yah Maaf Ya kak:(")
   break
 case prefix+'sc':
-  reply("https://github.com/GetSya/JOJO-MD")
+  reply("🐦")
   break
 case prefix+'apakah':
   if (isLimit(sender, isPremium, isOwner, limitCount, limit)) return reply (`Limit kamu sudah habis silahkan kirim ${prefix}limit untuk mengecek limit`)
