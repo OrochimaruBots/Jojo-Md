@@ -219,6 +219,7 @@ exports.allmenu = (sender, prefix, pushname, isOwner, isPremium, balance, limit,
   *THANKS TO*
   - Allah SWT
   - Baileys-Md (Adiwa Jshing)
+  - @Kevinafsar_ (Kevin)
   - @yannnnn.zz_ (Riyan)
   - @sofunsyabi.id (Arasya)
   - M Hadi Firmansya (Hadi Api)
